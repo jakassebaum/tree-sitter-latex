@@ -521,5 +521,6 @@ build/
 /bindings/c/*.h
 /bindings/c/tree-sitter-*.pc
 
-src/parser.c
-src/tree_sitter/
+# Generated files needed for node-gyp builds from GitHub installs
+# src/parser.c
+# src/tree_sitter/
